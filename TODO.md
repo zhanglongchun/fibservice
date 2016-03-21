@@ -1,6 +1,6 @@
 ## TODO list
 
-* Log access information into a file
+* Log access records into a file
 * Do some performance test
 
 
@@ -11,4 +11,4 @@
 * Add some unit test
 * Add some functional test/non functional test
 * Add some documents (README, INSTALL)
-* Add some authenticate mechanism
+* Add some authenticate mechanism, default username and password is: ***test/test***

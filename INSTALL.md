@@ -12,6 +12,8 @@
 ![ImageLoadFailed](./res/pic-2.JPG)
 6. you can also use browser to test the Fibonacci service
 
+	please input ***test/test*** if the browser need username and password.
+
 ![ImageLoadFailed](./res/pic-3.JPG)
 
 ##There are also unittest cases in the test directory.
