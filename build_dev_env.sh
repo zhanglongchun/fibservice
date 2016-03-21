@@ -8,3 +8,5 @@ virtualenv venv
 
 pip install Flask
 
+pip install pytest
+
