@@ -10,3 +10,5 @@ pip install Flask
 
 pip install pytest
 
+pip install flask-httpauth
+
