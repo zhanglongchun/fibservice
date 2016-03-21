@@ -15,4 +15,7 @@
 ![ImageLoadFailed](./res/pic-3.JPG)
 
 ##There are also unittest cases in the test directory.
+you can use the py.test to run test cases.
+
+![ImageLoadFailed](./res/pic-4.JPG)
 
