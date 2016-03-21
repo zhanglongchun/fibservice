@@ -1,7 +1,6 @@
 ## TODO list
 
 * Log access information into a file
-* Add some authenticate mechanism
 * Do some performance test
 
 
@@ -12,3 +11,4 @@
 * Add some unit test
 * Add some functional test/non functional test
 * Add some documents (README, INSTALL)
+* Add some authenticate mechanism

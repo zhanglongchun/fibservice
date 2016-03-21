@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-import sys, string, urllib2, json
+import sys, string, urllib2, json, base64
 import pytest
 from urllib2 import HTTPError
 
@@ -46,8 +46,10 @@ def test_fib_svc_err_2():
 
 # invalid number
 def test_fib_svc_err_3():
-	url = 'http://localhost:5000/testservices/api/v1.0/fibonacci/xxx'
-	response = urllib2.urlopen(url)
+	request = urllib2.Request('http://localhost:5000/testservices/api/v1.0/fibonacci/xxx')
+	base64string = base64.encodestring('%s:%s' % ('test', 'test')).replace('\n', '')
+	request.add_header("Authorization", "Basic %s" % base64string)
+	response = urllib2.urlopen(request)
 	ret = response.read()
 	decodejson = json.loads(ret)
 	assert ('error' in decodejson)
