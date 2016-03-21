@@ -1,11 +1,14 @@
 ## TODO list
 
-
-* first version
-* unit test
-* functional test/non functional test
+* Log access information into a file
+* Add some authenticate mechanism
+* Do some performance test
 
 
 ## done
-* select a restful webservice framework (Flask)
-* 
+* Select a restful webservice framework (Flask)
+* First version
+* Think about how to test it
+* Add some unit test
+* Add some functional test/non functional test
+* Add some documents (README, INSTALL)
